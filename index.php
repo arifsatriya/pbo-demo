@@ -4,7 +4,7 @@
 </head>
 <body>
 <?php
-	$dir='.https://arifsatriya.github.io/pbo-demo/'; //menentukan nama folder yang ingin ditampilkan listnya
+	$dir='./XII/'; //menentukan nama folder yang ingin ditampilkan listnya
 	echo '<b>daftar file dari folder ',$dir,'</b>';
 	$dh=opendir($dir) or die('error');
 	while(($f=readdir($dh)) !== false){
